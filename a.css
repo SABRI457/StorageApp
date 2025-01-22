@@ -1,0 +1,33 @@
+.a1 p {
+    width: 60px;
+    height: 55px;
+    margin: 20px 0;
+    opacity: 0.2;
+    transition :  opacity 1s  ease;
+}
+.a1{
+    display: flex;
+    width: 600px;
+    height: 70px;
+    background-color: #eee;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.z1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.a2{
+    width: 600px;
+    height: 500px;
+    background-color: red;
+    margin-top: 30px;
+    transition : background-color 1s  ease ;
+}
+.a1 p.active {
+    opacity: 1;
+}
